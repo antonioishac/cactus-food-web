@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: lightgray;
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.espaco-logo {
+    padding-left: 10px;
+}
+
+mat-toolbar{
+    border-radius: 3px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #12a105;
+    color: #fff;
+  }
+
+@media(max-width: 959px){
+    mat-toolbar{
+        border-radius: 0px;
+    }
+}
